@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ClothesSupermarketSystem:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7fbd8c1-0a3b-422b-a120-b911f98c4947" name="Default Changelist" comment="add home.function">
+      <change afterPath="$PROJECT_DIR$/src/com/system/services/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/system/services/Impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/system/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/system/services/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/system/utils/ClothesIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/system/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/system/utils/OrderIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/META-INF/ClothesSupermarketSystem.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/bean/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/bean/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/bean/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/bean/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/resource/r.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/resource/r.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/resource/r1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/resource/r1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/test/ProductsXmlUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/ui/HomeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/ui/HomeClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/ui/WelcomeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/system/ui/WelcomeClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.xml" beforeDir="false" afterPath="$PROJECT_DIR$/products.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/bean/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/bean/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/bean/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/resource/r.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/resource/r.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/resource/r1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/resource/r1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/services/ClothesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/services/ClothesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/services/Impl/ClothesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/services/Impl/ClothesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/test/ProductsXmlUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/ui/HomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/ui/HomeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/ui/WelcomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/ui/WelcomeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/system/utils/ProductsXmlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/system/utils/ProductsXmlUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XyilYZOuCXL6lpb4lbauf0fAlc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaLearn\IJ\ClothesSupermarketSystem\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java学习\IJ\ClothesSupermarketSystem\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="ConsoleTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.system.ui.ConsoleTable" />
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.system.MainClass" />
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.system.MainClass" />
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.system.MainClass" />
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.system.MainClass" />
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="ClothesSupermarketSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\JavaLearn\IJ\ClothesSupermarketSystem\src\com\system\resource" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="run.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="ClothesSupermarketSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\JavaLearn\IJ\ClothesSupermarketSystem\src\com\system\resource" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="run.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="ClothesSupermarketSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\JavaLearn\IJ\ClothesSupermarketSystem\src\com\system\resource" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="run.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeClass.show" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.system.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.system.ui.HomeClass" />
+      <option name="METHOD_NAME" value="show" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsXmlUtilsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.system.test" />
+      <option name="MAIN_CLASS_NAME" value="com.system.test.ProductsXmlUtilsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Batch.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7fbd8c1-0a3b-422b-a120-b911f98c4947" name="Default Changelist" comment="" />
+      <created>1582024887022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582024887022</updated>
+      <workItem from="1582086597046" duration="19000" />
+      <workItem from="1582094017923" duration="475000" />
+      <workItem from="1582100012058" duration="83000" />
+      <workItem from="1582102174899" duration="592000" />
+      <workItem from="1582116408253" duration="6517000" />
+      <workItem from="1582162966576" duration="35956000" />
+      <workItem from="1582245691454" duration="10186000" />
+      <workItem from="1582256874595" duration="302000" />
+      <workItem from="1582257207354" duration="125000" />
+      <workItem from="1582257362239" duration="161000" />
+      <workItem from="1582257556433" duration="162000" />
+      <workItem from="1582257761999" duration="776000" />
+      <workItem from="1582258608887" duration="59000" />
+      <workItem from="1582258765593" duration="2317000" />
+      <workItem from="1582261782488" duration="602000" />
+      <workItem from="1582262427403" duration="895000" />
+      <workItem from="1582263354675" duration="587000" />
+      <workItem from="1582263988126" duration="215000" />
+      <workItem from="1582264279965" duration="276000" />
+      <workItem from="1582264582668" duration="320000" />
+      <workItem from="1582264962389" duration="455000" />
+      <workItem from="1582265515985" duration="16227000" />
+      <workItem from="1582289558656" duration="547000" />
+      <workItem from="1582290151709" duration="118000" />
+      <workItem from="1582290297204" duration="446000" />
+      <workItem from="1582290981603" duration="419000" />
+      <workItem from="1582291447710" duration="404000" />
+      <workItem from="1582292369132" duration="690000" />
+      <workItem from="1582294501017" duration="140000" />
+      <workItem from="1582294778803" duration="99000" />
+      <workItem from="1582294937970" duration="7329000" />
+      <workItem from="1582332245562" duration="205000" />
+      <workItem from="1582341192246" duration="11280000" />
+    </task>
+    <task id="LOCAL-00001" summary="lib add folder">
+      <created>1582185617293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582185617293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lib add folder">
+      <created>1582188066977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582188066977</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lib add folder">
+      <created>1582199443704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582199443704</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lib add folder">
+      <created>1582199475803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582199475803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lib add folder">
+      <created>1582205012246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582205012246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add home.function">
+      <created>1582211889832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582211889832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lib add folder" />
+    <MESSAGE value="add home.function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add home.function" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="135" y="0" key="#Custom_Plugin_Repositories" timestamp="1582080153489">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="135" y="0" key="#Custom_Plugin_Repositories/0.0.1280.680@0.0.1280.680" timestamp="1582080153489" />
+    <state x="233" y="0" key="#Notifications" timestamp="1582266770162">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1582266770162" />
+    <state x="215" y="0" key="#Project_Structure" timestamp="1582100057637">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="215" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1582100057637" />
+    <state x="233" y="0" key="#Vim_Emulation" timestamp="1582262098257">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Vim_Emulation/0.0.1280.680@0.0.1280.680" timestamp="1582262098257" />
+    <state x="363" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582295119689">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="363" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1582295119689" />
+    <state x="381" y="174" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1582264901183">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="381" y="174" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1582264901183" />
+    <state x="456" y="172" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1582094180056">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="456" y="172" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1280.680@0.0.1280.680" timestamp="1582094180056" />
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1582348136302">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582348136302" />
+    <state x="277" y="122" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582211422618">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="122" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1582211422618" />
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582294579546">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1582294579546" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582035569247">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1582035569247" />
+    <state x="170" y="0" key="CommitChangelistDialog2" timestamp="1582363460839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="170" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582363460839" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1582032128503">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1582032128503" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1582363759572">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582363759572" />
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1582363760871">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582363760871" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1582363760871">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582363760871" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1582363760871">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582363760871" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1582363760871">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582363760871" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1582283054126">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582283054126" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1582283054126">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582283054126" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1582283054126">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582283054126" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1582283054126">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582283054126" />
+    <state x="115" y="0" width="951" height="680" key="SettingsEditor" timestamp="1582363529766">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="115" y="0" width="951" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582363529766" />
+    <state x="329" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582294505131">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="329" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582294505131" />
+    <state x="348" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582102247171">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1582102247171" />
+    <state x="423" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582190346263">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="423" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1582190346263" />
+    <state x="189" y="71" width="903" height="609" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582271198129">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="189" y="71" width="903" height="609" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1582271198129" />
+    <state x="340" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582165854745">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="340" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1582165854745" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1582262657372">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1582262657372" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582353976031">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582353976031" />
+  </component>
+</project>
